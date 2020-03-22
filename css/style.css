@@ -154,3 +154,22 @@ blockquote p{
   font-style: italic;
   
 }
+
+.footer-logo #logo-img span{
+  font-size: 1.2rem;
+
+}
+
+#footer ul{
+  border-radius: 4px;
+  margin-top: 10px;
+  color: #D5DD5D;
+  list-style: none;
+  display: inline-block;
+}
+
+#footer li{
+  margin-top: 10px;
+  list-style: none;
+  display: inline-block;
+}

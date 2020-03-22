@@ -3,12 +3,12 @@
 
 <head>
   <meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="css/style.css"/>
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
   <title>let's git</title>
 </head>
 
@@ -178,28 +178,44 @@
           <li>Add new file using - <code>touch filename.py</code></li>
         </ul>
 
-        <p>Once the new file gets added to the local git repository, let's push the same to our remote git repository on GitHub
-        using the following steps:</p>
+        <p>Once the new file gets added to the local git repository, let's push the same to our remote git repository on
+          GitHub
+          using the following steps:</p>
         <ul>
           <li>Firstly check the status of out local git repository using - <code>git status</code></li>
           <blockquote>
             <p>It will show all the latest changes we have done to our local git repository</p>
           </blockquote>
-          <li>If we have any recent changes, we will add the changes to stage area using - <code>git add . </code> or <code>git add filename.py</code></li>
+          <li>If we have any recent changes, we will add the changes to stage area using - <code>git add . </code> or
+            <code>git add filename.py</code></li>
           <blockquote>
-            <p>Above command will add all the newly added and modified file to staging area of Git. Here, dot(.) means add all the file & to add specific file use the name of the file</p>
+            <p>Above command will add all the newly added and modified file to staging area of Git. Here, dot(.) means
+              add all the file & to add specific file use the name of the file</p>
           </blockquote>
-          <li>After adding file to stage area, we need to commit the changes using - <code>git commit -m "Any message you can give here"</code></li>
+          <li>After adding file to stage area, we need to commit the changes using -
+            <code>git commit -m "Any message you can give here"</code></li>
           <blockquote>
             <p>Here, 'm' is represeting the commit message. Always give meaning message that is relevant to changes</p>
           </blockquote>
-          <li>Finally, push the newly added & modified file to GitHub remote repository using - <code>git push</code></li>
+          <li>Finally, push the newly added & modified file to GitHub remote repository using - <code>git push</code>
+          </li>
           <li>Now, you are good to find the recent changes done in local git repo on your GitHub</li>
         </ul>
       </div>
     </div>
   </section>
-  <footer>
+
+  <!-- Footer -->
+  <footer class="text-center" id="footer">
+          <ul>
+            <li class="footer-logo">
+              <p id='logo-img'><span>&lt;git</span><span>/</span><span id="head-code"
+                  style="color: #861657">code&gt;</span>
+              </p>
+            </li>
+            <li>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="https://www.explorechoice.org" target="_blank">explorechoice.org</a>
+            </li>
+          </ul>
   </footer>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -211,4 +227,5 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 </body>
+
 </html>
